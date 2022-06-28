@@ -3,7 +3,7 @@ import {Button, Box} from "theme-ui"
 
 export function DownloadButton() {
 	function handleDownload() {
-		window.location = "/vcard/vcard.vcf"
+		window.location = "/vcard/vcard_ely_hemnes.vcf"
 	}
 	return (
 		<Box sx={{position: 'fixed', right: '50px', bottom: '40px', zIndex: '1'}}>
