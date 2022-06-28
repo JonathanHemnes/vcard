@@ -7,5 +7,6 @@ module.exports = {
         preset: '@theme-ui/preset-tailwind',
       },
     },
+    'gatsby-plugin-react-helmet'
   ],
 }

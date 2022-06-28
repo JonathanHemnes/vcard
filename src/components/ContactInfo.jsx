@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faChain } from "@fortawesome/free-solid-svg-icons";
 import {DownloadButton} from "./DownloadButton";
-import {Link} from "theme-ui"
+import {Box, Link, Flex} from "theme-ui"
 
 
 const ContactContainer = styled.div`
@@ -17,7 +17,7 @@ margin: 10px 0 10px 0;
 
 export function ContactInfo() {
 	return (
-		<ContactContainer>
+		<Box sx={{margin: ['0 10px 0 10px','0 20px 0 20px','0 30px 0 30px']}}>
 		<ContactItem>
 		<FontAwesomeIcon icon={faPhone} />
 		<Link href="tel:6177759911">617-775-9911</Link>
@@ -31,6 +31,6 @@ export function ContactInfo() {
 		<Link href="theunfounddoor.com">theunfounddoor.com</Link>
 		</ContactItem>
 		<DownloadButton />
-		</ContactContainer>
+		</Box>
 	)
 }
