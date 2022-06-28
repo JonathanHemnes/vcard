@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/vcard",
   plugins: [
     {
       resolve: 'gatsby-plugin-theme-ui',
