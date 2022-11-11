@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[678],{6558:function(e,n,r){r.r(n),r.d(n,{default:function(){return u}});var t=r(7294),c=r(1877);function u(){return t.createElement(t.Fragment,null,t.createElement(c.rU,{href:"/vcard/ely"},"Ely"),t.createElement(c.rU,{href:"/vcard/Jenny"},"Jenny"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-193f00a86aa6a7fc4afb.js.map
